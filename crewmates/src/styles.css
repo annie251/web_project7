@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+  }
+  
+  .app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #3a3a3a;
+    padding: 20px;
+    width: 200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .page {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input, select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 2px solid white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .ufo-image {
+    width: 250px;
+    margin-top: 20px;
+  }
+  
